@@ -3,9 +3,9 @@ import Navbar from "./navbar";
 
 const HomeContainer = (props: any) => {
     return (
-    <div className="flex">
+    <div className="flex flex-col">
         <Navbar/>
-      <div>{props.children}</div>
+        <div>{props.children}</div>
     </div>
     )
 }
